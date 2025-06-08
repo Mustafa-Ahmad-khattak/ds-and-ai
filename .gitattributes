@@ -1,2 +1,13 @@
+# Set default behavior for all files
 * text=auto
+
+# Explicitly declare text files that should always use LF line endings
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+
+# Declare files that should not be modified (binary files or special formats)
 *.ipynb -text
+*.png binary
+*.jpg binary
+*.pdf binary
